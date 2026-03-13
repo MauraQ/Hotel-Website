@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="contact page">
+        <meta name="keywords" content="connect, phone number, questions">
+        <meta name="author" content="maura quintana">
+        <title>Contact</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/svg" href="images/logo.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Oranienbaum&family=Pacifico&family=Parisienne&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Pacifico&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/df79e00914.js" crossorigin="anonymous"></script>
+<script src="js/script.js" defer></script>
+</head> 
+<body>
+ <nav class="navi">
+      <div class="logo"><a href="index.html">Maya Escencia</a></div>
+      <ul class="nav">
+        <li><a href="booking.html">Book here</a></li>
+        <li><a href="restaurant.html">Resturant</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gym.html">Gym</a></li>
+        <li><a href="spa.html">Spa</a></li>
+      </ul>
+    </nav>
+<main>
+<div class="contact-text">
+<h2>Contact us Anytime!</h2>
+<p>We’re always happy to hear from you. Whether you’re planning your stay, or have special requests, our friendly staff is ready to assist. Reach out anytime we’re here to make your experience unforgettable.</p>
+</div>
+
+<form action="mailto:maura.sanchez253@yahoo.com" method="post" id="contact-form" enctype="text/plain">
+        <div class="form-group">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+                 <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+        </div>
+        <div class="form-group">
+                 <label for="phone">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="(206)897-0965">
+        </div>
+        <div class="form-group">
+                <label for="room">Room</label>
+                <select id="room" name="room">
+                        <option value="">--Please choose your room--</option>
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="suite">Luxury Suite</option>
+                        <option value="presidential">Presidental Suite</option>
+                        <option value="studio">Studio</option>
+                </select> 
+        </div>
+        <fieldset class="form-group">
+                <legend>What activities are you interested in</legend>
+                <label>
+                        <input type="checkbox" name="itinerary" value="shopping">
+                        Shopping
+                </label>
+                <label>
+                        <input type="checkbox" name="itinerary" value="spa">
+                        Spa
+                </label>
+                <label>
+                        <input type="checkbox" name="itinerary" value="gym">
+                        Gym
+                </label>
+                <label>
+                        <input type="checkbox" name="itinerary" value="Resturant">
+                        Resturant Reservation
+                </label>
+        </fieldset>
+        <div class="form-group">
+                <label for="message">Please describe any detailed messages for us here.(allergies, special requests, spa requests, resturant request, etc)</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+                <button type="submit">Submit</button>
+        </div>
+</form>
+<p id="error"></p>
+<p id="success"></p>
+</main>
+<footer>
+  <div class="footer-main">
+    <div class="logo">Maya Escensia</div>
+    <div class="footer-links">
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About Us</a>
+      <a href="booking.html">Book With Us</a>
+    </div>
+    <div class="footer-contact">
+      <p>Contact Us:</p>
+    <div class="footer-icons">
+      <a href="#" class="footer-icon"><i class="fa-solid fa-mobile"></i></a>
+      <a href="#" class="footer-icon"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="instagram.com" class="footer-icon"><i class="fa-brands fa-instagram"></i></a>
+      <a href="facebook.com" class="footer-icon"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="footer-icon"><i class="fa-regular fa-message"></i></a>
+    </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="footer-date">
+         <h2 id="clock">Time</h2>
+    </div>
+    <div class="copyright">Maura Quintana 2025</div>
+  </div>
+</footer>
+</body>
+</html>
